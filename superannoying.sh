@@ -27,7 +27,7 @@ Please visit Self Service to find and run *Install macOS Monterey (macOS 12)*
 This message will continue to appear until the update has been completed.
 If you have any questions or concerns, please email help@viz.com. 
 
-This message will disappear shortly." -icon "/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/Resources/SoftwareUpdate.icns" & sleep 10
+This message will disappear shortly." -icon "/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/Resources/SoftwareUpdate.icns" & sleep 20
 
 killall jamfHelper
 
