@@ -24,7 +24,7 @@ currentUser=$( echo "show State:/Users/ConsoleUser" | scutil | awk '/Name :/ { p
 Please visit Self Service and run *Install macOS Monterey (macOS 12)*
 This message will stop appearing shortly after upgrading. If you have any questions or concerns, please email help@viz.com. 
 
-This message will disappear shortly." -icon "/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/Resources/SoftwareUpdate.icns" & sleep 10
+This message will disappear shortly." -icon "/System/Library/PreferencePanes/SoftwareUpdate.prefPane/Contents/Resources/SoftwareUpdate.icns" & sleep 20
 
 killall jamfHelper
 
